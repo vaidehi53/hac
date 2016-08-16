@@ -1,0 +1,379 @@
+/* CSS Document */
+
+/* ===========================  Base styles: opinionated defaults  =========================== */
+ 
+/*@import url(https://fonts.googleapis.com/css?family=Dosis:400,300,500,600,700);
+*/
+
+
+/* ===========================  Base styles: opinionated defaults  =========================== */
+
+   
+*{ margin:0; padding:0;}
+
+html,button{border:none;}
+
+img{vertical-align:middle; border:0px; height:auto; max-width:100%;}
+input, textarea{resize:vertical; border:none;}
+input[type="submit"], input[type="button"]{ border:none; cursor:pointer;}
+
+h1, h2, h3, h4, h5, h6 { padding:0; margin:0; font-weight:normal; }
+
+ul{ padding:0; margin:0; list-style:none;}
+
+a{outline:none; text-decoration:none; transition:all 0.2s ease-in-out; -webkit-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out;} 
+a:hover, a:focus, button{ text-decoration:none; outline:none; border:none;}
+input:focus { outline:none;}
+
+.spacer-10 { height:10px; float:left; width:100%; clear:both;}
+.spacer-20 { height:20px; float:left; width:100%; clear:both;}
+.spacer-30 { height:30px; float:left; width:100%; clear:both;}
+.spacer-50 { height:50px; float:left; width:100%; clear:both;}
+.spacer-70 { height:70px; float:left; width:100%; clear:both;}
+.spacer-100 { height:100px; float:left; width:100%; clear:both;}
+
+/* ===========================  Base styles: opinionated defaults  =========================== */
+
+/************************ Wordpress Typography Part Start ***************************/
+
+
+
+body{font-size:14px; font-family: Arial, Helvetica, sans-serif; background:#fff; color:#333333;}
+
+section{ width:100%; float:left;}
+header{ width:100%; float:left; background:#e9e9e9; padding:30px 0px;}
+
+/* =============== Header Style =============== */
+
+.logo{ padding:0;}
+.logo img{ max-width:360px;}
+
+
+.header-phone{ padding:6px 0 0;}
+.header-phone ul{ padding:0; margin:0; float:right;}
+.header-phone li{ float:left; margin:0 13px; text-align:center;}
+.header-phone li a{ display:block; font-size:15px; line-height:23px; color:#333;}
+.header-phone li a:hover{color:#66ac4c;}
+
+.header-phone span{ display:block;}
+
+
+
+/* =============== Header Style =============== */
+
+
+
+/* =============== Menu Wrapper Style =============== */
+
+.menu-wrapper{width:100%; float:left; background:#f4f4f4;box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+     position:relative; z-index:11111;}
+.menu-wrapper ul{ padding:0; margin:0; float:left;}
+.menu-wrapper li{ float:left; margin:0; text-align:center;}
+.menu-wrapper li a{ display:block; font-size:16px; line-height:48px; color:#333; padding:0 18px;}
+.menu-wrapper li a:hover, .menu-wrapper li.active a{color:#fff; background:#66ac4c;}
+.menu-wrapper li a .fa{line-height: 48px;}
+.menu-wrapper li ul{    
+	display: none;
+    position: absolute;
+    z-index: 999;
+    /* margin: 10px 0 0; */
+    padding: 0;
+    width: 250px;
+    background: #e9e9e9;
+}
+.menu-wrapper li ul li {
+    width: 100%;
+    text-align: left;
+}
+.menu-wrapper li:hover > ul{display:block;}
+
+.menu-wrapper li ul li ul{
+width:270px;
+margin-left:250px;
+    margin-top: -48px;    
+}
+.fixed-pos{position:fixed;}
+
+
+.search-box{ float:right; width:100%; max-width:260px; padding-right:20px; margin:11px 15px 0 0; border:1px solid #818181; border-radius:5px; 
+-webkit-border-radius:5px; position:relative; overflow:hidden;}
+.search-box .input-search{width:100%; padding:0 10px; height:26px; border:none; background:transparent; color:#7f7f7f;}
+.search-box .submit{ position:absolute; right:4px; top:0px; width:26px; height:26px; background:url(../images/search-icon.png) center center no-repeat;}
+
+.search-box .input-search::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #7f7f7f;
+}
+.search-box .input-search::-moz-placeholder { /* Firefox 19+ */
+  color: #7f7f7f;
+}
+.search-box .input-search:-ms-input-placeholder { /* IE 10+ */
+  color: #7f7f7f;
+}
+.search-box .input-search:-moz-placeholder { /* Firefox 18- */
+  color: #7f7f7f;
+}
+
+
+
+/* =============== Menu Wrapper Style =============== */
+
+/* =============== Typography =============== */
+
+.inner-style h1, .inner-style h2, .inner-style h3, .inner-style h4, .inner-style h5, .inner-style h6{ margin:10px 0px; clear:both; font-weight:normal;}
+
+.alignleft {display: inline-block; float: left; margin:0 20px 10px 0;}
+.alignright {display: inline-block; float: right; margin-left:0 0 10px 20px;}
+.aligncenter {clear: both; display: block !important;  margin-left: auto !important;  margin-right: auto !important; margin-bottom:10px; text-align: center;}
+.inner-style ul, .inner-style ol {margin: 10px 0 10px 20px; font-size:16px;}
+.inner-style ol {/*list-style:decimal;*/}
+.inner-style ul {/*list-style:disc ;*/}
+.inner-style h1{ font-size:34px; line-height:34px;}
+.inner-style h2{ font-size:30px; line-height:30px;}
+.inner-style h3{ font-size:26px; line-height:26px;}
+.inner-style h4{ font-size:22px; line-height:22px;}
+.inner-style h5{ font-size:18px; line-height:18px;}
+.inner-style h6{ font-size:16px; line-height:16px;}
+
+.inner-style p{ font-size:16px; line-height:22px; color:#292929;margin:0;  margin-bottom:20px; vertical-align: baseline;}
+
+/* =============== Typography =============== */
+
+
+/* =============== home-slider Style =============== */
+
+.home-slider{ padding:0; width:100%; float:left; margin:0; }
+.bx-wrapper{position:relative;}
+
+.bx-controls-direction a{ font-size:64px; width:30px; height:50px; text-align:center; color:#c3bfbf; position:absolute; top:50%; margin-top:-25px; z-index:101; }
+.bx-controls-direction .bx-prev{ left:10px;}
+.bx-controls-direction .bx-next{ right:10px;}
+.bx-controls-direction .fa{line-height:50px;}
+.bx-controls-direction a:hover{ color:#66ac4c;}
+
+
+.bx-pager{ position:absolute; bottom:16px; width:100%; z-index:102; text-align:center;}
+.bx-pager-item{display:inline-block;}
+.bx-pager a{ float:left; width:18px; height:18px; background:#cdcdcd; border-radius:100%; margin:0 4px; font-size:0;}
+.bx-pager a.active, .bx-pager a:hover{background:#66ac4c;}
+
+.slide-text {position:absolute; top:0; left:0; width:100%; max-width:50%; z-index:103; padding:25px 0 0 60px;}
+.slide-text h2{ font-weight:500; margin:0 0 12px; font-size:38px; line-height:1;}
+.slide-text p{ margin:10px 0; line-height:1.3; font-size:17px;}
+
+.more-info{ float:left; margin:10px 0 0; font-size:16px; color:#fff; line-height:40px; background:#66ac4c; padding:0 25px;}
+.more-info:hover {background:#e9e9e9; color:#66ac4c;}
+
+
+/* =============== home-slider Style =============== */
+
+
+/* =============== why-choose-us Style =============== */
+
+.section-title{width:100%; float:left; margin:0 0 30px; position: relative; text-align:center;}
+.section-title h2{font-weight:500; margin:0; font-size:36px; line-height:1; text-transform:uppercase;}
+.section-title h2 span{padding:0 0 20px; position:relative; min-width:320px; display:inline-block;}
+.section-title h2 span:after{ position:absolute; bottom:0; left:0; width:100%; height:2px; background:#cdcdcd; content:""; z-index:101;}
+.section-title h2 span:before{ position:absolute; bottom:0; left:50%; width:80px; margin-left:-40px; height:2px; background:#66ac4c; content:""; z-index:102;}
+
+.why-choose{ margin:40px 0; width:100%; float:left;}
+
+.why-item{ margin:20px 0; width:100%; float:left;}
+.why-item aside{ position:relative; width:100%; float:left; padding:0 0 0 60px;}
+.why-item p{ font-size:15px; line-height:20px;}
+
+.why-item .plus{ position:absolute; top:0; left:0; padding-right:12px;}
+.why-item .plus .fa{ line-height:34px; text-align:center; width:34px; font-size:18px; background:#66ac4c; color:#fff;}
+.why-item .plus:after{ position:inherit; top:0; right:0; height:40px; width:1px; content:""; background:#d6d6d6;}
+
+
+/* =============== why-choose-us Style =============== */
+
+
+/* =============== enquiry-form Style =============== */
+
+.enquiry-form { margin:40px 0; width:100%; float:left;}
+
+.enquiry-item{ width:33.333%; padding:0 15px; margin:10px 0; float:left;}
+.enquiry-item .input-field{ width:100%; border:1px solid #888888; height:38px; padding:0 10px; margin:0; float:left;}
+
+.enquiry-item select{ width:100%; border:1px solid #888888; height:38px; padding:0 10px; float:left;}
+
+.enquiry-item label{ font-size:16px; display:block; margin:0 0 10px;}
+
+.enquiry-submit{width:100%; float:left; text-align:center; margin:10px 0 0;}
+.enquiry-submit input{ display:inline-block; font-size:16px; color:#fff; line-height:40px; width:240px; max-width:180px; background:#66ac4c; padding:0; text-align:center; text-transform:uppercase;border-radius: 0;}
+.enquiry-submit input:hover {background:#082b3f;}
+
+
+
+/* =============== enquiry-form Style =============== */
+
+.newsletter{margin:0; width:100%; float:left; background:#66ac4c; padding:35px 0;}
+
+.newsletter .item{ padding:0 10px;}
+.newsletter h5{ color:#fff; text-transform:uppercase; font-size:18px; line-height:46px;}
+
+.newsletter input[type="text"]{ width:100%; border:1px solid #fff; color:#fff; background:transparent; height:42px; padding:0 10px; font-size:14px; text-transform:uppercase;}
+
+.newsletter input::-webkit-input-placeholder {color: #fff;}
+.newsletter input:-ms-input-placeholder {color: #fff;}
+.newsletter input::-moz-placeholder {color: #fff;}
+
+
+.newsletter input[type="submit"]{ display:inline-block; font-size:16px; color:#66ac4c; line-height:40px; width:120px; max-width:180px; background:#fff; padding:0; text-align:center; text-transform:uppercase;}
+.newsletter input[type="submit"]:hover{ background:#e9e9e9; color:#66ac4c;}
+
+
+
+
+/* =============== newsletter Style =============== */
+
+
+
+footer{width:100%; float:left; padding:30px 0 0; background:#e9e9e9;}
+
+.footer-logo{ padding:0; text-align:left;}
+.footer-logo a{ padding:0; display:block;}
+
+.footer-menu{ margin:20px 0 0; text-align:center; padding:0;}
+.footer-menu ul{ padding:0; margin:0;}
+.footer-menu li{margin:0; text-align:center; display:inline-block;}
+.footer-menu li a{ display:block; font-size:15px; line-height:16px; color:#333; padding:0 12px; border-right:1px solid #333;}
+.footer-menu li a:hover{color:#66ac4c;}
+
+.footer-menu li:last-child a{ padding-right:0; border-right:none;}
+
+
+.social-list { padding: 0; float: right; text-align: right; margin:15px 0 0; }
+.social-list aside { float: right; }
+.social-list a { font-size:18px; color:#fff; margin: 0 4px; display: inline-block; width:30px; height:30px; text-align: center; }
+.social-list i { line-height:30px; }
+.social-list li a:hover { background: #e60013; }
+
+.social-list h5 { display: inline-block; color: #333; font-size:15px; line-height: 18px; text-align: right; margin: 0 15px 0 0; text-transform:uppercase; }
+
+.social-list a.facebook{ background:#3b5b9b;}
+.social-list a.twitter{ background:#5dadd9;}
+.social-list a.linkedin{ background:#0173b1;}
+
+
+.copyright{width:100%; float:left; margin:15px 0 0; padding:0 50px; text-align:center; border }
+.copyright p{ color:#333; font-size:14px; line-height:20px; border-top:1px solid #66ac4c; width:100%; display:inline-block; padding:20px 0;}
+
+
+
+/*//////about-us //////*/
+
+.inner-bg {    background: #f3f3f3;}
+
+.inner-article, .inner-aside {
+	float:left;
+    margin: 0 0 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    padding:20px 25px;
+}
+
+.inner-aside .enquiry-item{
+	width:100%;
+}
+
+.inner-title {
+    float: left;
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+.inner-title h2 {
+   border-bottom: 1px solid #d4d4d4;
+    color: #484848;
+    font-size:27px;
+	margin:0;
+    padding-bottom:10px;
+	line-height: 30px;
+}
+
+.content-item {
+    float: left;
+    margin: 20px 0;
+}
+
+.content-item p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.left-side_nav {
+    float: left;
+    width: 100%;
+}
+.left-side_nav ul {
+	margin: 0px;
+     font-size: 14px; 
+}
+.left-side_nav li a {
+	display: block;
+    color: #444;
+    line-height: 33px;
+    padding-right: 20px;
+    position: relative;
+    padding-left: 10px;
+}
+.left-side_nav li a:after {
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f054";
+    position: absolute;
+    right: 0px;
+    vertical-align: middle;
+    top: 3px;
+    color: #66ac4c;
+    background: #e9e9e9;
+    padding: 6px;
+}
+.left-side_nav li a:hover {
+    background: #ececec;
+}
+.inner-rightbar .most-content {
+    float: left;
+    width: 100%;
+}
+.inner-rightbar .most-content img {
+    margin: 10px 0;
+}
+.testimonial{
+text-align:center;
+}
+.testimonial span.test-ico {
+    background: #e2e2e2;
+    padding: 20px;
+    border-radius: 50%;
+    color: #66ac4c;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-size: 20px;
+}
+.testimonial span.test-ico:last-child {
+margin:15px 0 0 0;
+}
+.testimonial span.test-say {
+    color: #66ac4c;
+    font-size: 15px;
+    display: inline-block;
+    line-height: 18px;
+}
+.test-box{
+padding-bottom:20px;
+}
+
+.testimonial .bx-pager{
+bottom:0;
+}
+
+.inner-banner{
+margin-bottom:20px;
+}
+.inner-banner img{
+width:100%;
+height:300px;
+}

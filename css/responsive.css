@@ -1,0 +1,144 @@
+
+@media (max-width:1199px) {
+	.menu-wrapper li a {
+    font-size: 15px;
+    padding: 0 12px;
+	}
+	.logo {
+    display: table;
+    height: 100px;
+	}
+	.logo img {
+    max-width: 280px;
+	}
+	.logo.col-sm-6.col-xs-12 > a {
+    display: table-cell;
+    vertical-align: middle;
+	}
+	.header-phone li {
+    float: none;
+	}
+	.header-phone span {
+    display: inline;
+	}
+	.search-box {
+    margin: 11px 0;
+    max-width: 100%;
+	}
+	.newsletter h5 {
+    font-size: 15px;
+	}
+	.newsletter input[type="submit"] {
+    font-size: 15px;
+    max-width: 100%;
+	}
+	.footer-logo a {
+    text-align: center;
+	}
+	.footer-logo a img {
+    max-width: 280px;
+	}
+	.social-list aside {
+    float: none;
+    text-align: center;
+	}
+
+}
+
+@media (min-width:768px) {
+.header-phone li:last-child{ margin:0 0 0 13px;}
+
+}
+
+
+@media (max-width:767px) {
+	.menu-wrapper ul{display:none;}
+	header {
+	padding: 20px 0;
+	}
+	.logo {
+    height: auto;
+	}
+	.logo > a {
+	text-align:center;
+	}
+	.header-phone li a {
+    color: #66ac4c;
+    display: inline-block;
+    font-weight: 600;
+    text-align: left;
+    width: 180px; 
+	font-size:13px;
+	}
+	.header-phone span {
+    color: #333;
+    padding-left: 10px;
+	font-weight:normal;
+	}
+	.header-phone ul {
+    float: none;
+	}
+	.newsletter input[type="text"]{margin-bottom: 10px;}
+	.footer-menu li a {
+    line-height: 23px;
+	}
+	.slide-text h2 {
+    font-size: 29px;
+	}
+	.slide-text p {
+    font-size: 15px;
+	}
+	.menu-wrapper {
+    padding: 0 15px;
+	}
+
+}
+
+@media only screen and (max-width: 415px){
+
+	.header-phone li a {
+    font-size: 13px;
+	}
+	.menu-wrapper {
+    padding: 0 15px;
+	}	
+	.enquiry-form{ margin:30px 0;}
+	.enquiry-item {
+    width: 100%;
+	}
+	.bx-viewport{height:270px !important;}
+	.bx-pager {
+    bottom: 0;
+	}
+	.slide-text h2 {
+    font-size: 25px;
+	}	
+	.slide-text {
+    max-width: 100%;
+    padding: 0 15px;
+	}
+	.bx-controls-direction{display:none;}
+	.home-slider {
+    margin: 20px 0 0;
+	}
+	.why-choose {
+    margin: 30px 0;
+	}
+	.section-title h2 {
+    font-size: 24px;
+	}
+	.section-title h2 span {
+    min-width: 280px;
+    padding: 0 0 15px;
+	}
+	.section-title {
+    margin: 0 0 20px;
+	}
+}
+
+
+
+
+
+
+
